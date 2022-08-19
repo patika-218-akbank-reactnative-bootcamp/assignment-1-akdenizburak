@@ -1,10 +1,11 @@
 import React from 'react';
 import { StyleSheet, Text, View } from "react-native";
+import MaterialIcons from 'react-native-vector-icons/MaterialIcons'
 
 
 const BannerHeaderRightLike=()=>{
     return(
-        <Text style={styles.container}>X</Text>
+        <MaterialIcons name="favorite" size={30} color="black"/>
     )
 }
 

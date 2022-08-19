@@ -56,6 +56,7 @@ const App = () => {
 
   return (
     <SafeAreaView style={backgroundStyle}>
+      <Banner/>
     </SafeAreaView>
   );
 };

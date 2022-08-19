@@ -8,7 +8,7 @@ import BannerHeaderRightShare from './BannerHeaderRightShare';
 
 const BannerHeaderRight=()=>{
     return(
-        <View style={{flexDirection:"row", width:"40%", backgroundColor:"white",justifyContent:"space-evenly"}}>
+        <View style={{flexDirection:"row", width:"40%", backgroundColor:"white",justifyContent:"space-evenly", marginTop:15}}>
             <BannerHeaderRightShare/>
             <BannerHeaderRightLike/>
             <BannerHeaderRightDM/>
