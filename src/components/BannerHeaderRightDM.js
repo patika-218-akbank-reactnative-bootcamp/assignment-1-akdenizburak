@@ -5,7 +5,7 @@ import MaterialIcons from 'react-native-vector-icons/MaterialIcons'
 
 const BannerHeaderRightDM=()=>{
     return(
-        <MaterialIcons name="maps-ugc" size={30} color="black"/>
+        <MaterialIcons name="send" size={30} color="black"/>
     )
 }
 

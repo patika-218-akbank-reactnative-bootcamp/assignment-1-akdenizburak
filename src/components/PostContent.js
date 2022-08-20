@@ -4,7 +4,7 @@ import { View, StyleSheet, Image } from 'react-native'
 const PostContent = () => {
     return (
         <View style={styles.container}>
-            <Image source={require('../assets/images/400x400.jpg')}/>
+            <Image />
         </View>
     )
 };

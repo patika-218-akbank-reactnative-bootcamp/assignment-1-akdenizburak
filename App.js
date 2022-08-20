@@ -19,6 +19,7 @@ import {
   Colors,
 } from 'react-native/Libraries/NewAppScreen';
 import Banner from './src/components/Banner';
+import Post from './src/components/Post';
 
 
 const Section = ({children, title}) => {
@@ -57,6 +58,7 @@ const App = () => {
   return (
     <SafeAreaView style={backgroundStyle}>
       <Banner/>
+      <Post/>
     </SafeAreaView>
   );
 };

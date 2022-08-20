@@ -15,8 +15,10 @@ const Banner = () => {
 const styles = StyleSheet.create({
     container: {
         width: "100%",
-        height: 120,
-        backgroundColor:"white"
+        height: 130,
+        backgroundColor:"white",
+        borderBottomColor:"lightgray",
+        borderBottomWidth:1
     },
 });
 
