@@ -16,8 +16,8 @@ const PostFooterLikesAvatars = () => {
 
 const styles = StyleSheet.create({
     imageContainer: {
-        width: 40,
-        height: 40,
+        width: 30,
+        height: 30,
         borderRadius: 50,
         borderColor: "black",
         borderLeftWidth: 1,

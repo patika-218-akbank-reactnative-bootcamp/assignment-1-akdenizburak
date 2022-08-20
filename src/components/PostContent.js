@@ -4,7 +4,7 @@ import { View, StyleSheet, Image } from 'react-native'
 const PostContent = () => {
     return (
         <View style={styles.container}>
-            <Image />
+            <Image/>
         </View>
     )
 };
@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
     container: {
         width: "100%",
         height: "55%",
-        
+
     },
 });
 

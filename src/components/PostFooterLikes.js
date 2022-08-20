@@ -19,6 +19,7 @@ const styles = StyleSheet.create({
         flexDirection:"row",
         alignItems:"center",
         marginLeft:10,
+        marginTop:5,
         backgroundColor:"white"
     },
 });

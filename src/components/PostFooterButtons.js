@@ -23,6 +23,7 @@ const styles=StyleSheet.create({
         height:35,
         flexDirection:"row",
         marginLeft:10,
+        marginTop:5,
         justifyContent:"space-between",
     }
 })
