@@ -4,11 +4,11 @@ import PostContent from './PostContent';
 import PostFooter from './PostFooter';
 import PostHeader from './PostHeader';
 
-const Post = () => {
+const Post = ({avatar,content}) => {
     return (
         <View style={styles.container}>
-            <PostHeader/>
-            <PostContent/>
+            <PostHeader imgURL={avatar}/>
+            <PostContent imgURL={content}/>
             <PostFooter/>
         </View>
     )

@@ -60,18 +60,16 @@ const App = () => {
     <SafeAreaView style={backgroundStyle}>
       <Banner/>
       <ScrollView>
-      <Post/>
-      <Post/>
-      <Post/>
-      <Post/>
-      <Post/>
-      <Post/>
-      <Post/>
-      <Post/>
-      <Post/>
-      <Post/>
-      <Post/>
-      <Post/>
+      <Post avatar={require('./src/assets/images/avatar/avatar.jpg')} content={require('./src/assets/images/post/post1.jpg')}/>
+      <Post avatar={require('./src/assets/images/avatar/avatar1.jpg')} content={require('./src/assets/images/post/post2.jpg')}/>
+      <Post avatar={require('./src/assets/images/avatar/avatar2.jpg')} content={require('./src/assets/images/post/post3.png')}/>
+      <Post avatar={require('./src/assets/images/avatar/avatar3.jpg')} content={require('./src/assets/images/post/post4.png')}/>
+      <Post avatar={require('./src/assets/images/avatar/avatar.jpg')} content={require('./src/assets/images/post/post5.png')}/>
+      <Post avatar={require('./src/assets/images/avatar/avatar1.jpg')} content={require('./src/assets/images/post/post6.jpg')}/>
+      <Post avatar={require('./src/assets/images/avatar/avatar2.jpg')} content={require('./src/assets/images/post/post1.jpg')}/>
+      <Post avatar={require('./src/assets/images/avatar/avatar3.jpg')} content={require('./src/assets/images/post/post2.jpg')}/>
+      <Post avatar={require('./src/assets/images/avatar/avatar.jpg')} content={require('./src/assets/images/post/post3.png')}/>
+      <Post avatar={require('./src/assets/images/avatar/avatar1.jpg')} content={require('./src/assets/images/post/post4.png')}/>
       </ScrollView>
     </SafeAreaView>
   );

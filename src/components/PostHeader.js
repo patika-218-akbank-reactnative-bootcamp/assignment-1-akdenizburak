@@ -4,10 +4,10 @@ import PostHeaderAvatar from './PostHeaderAvatar';
 import PostHeaderNick from './PostHeaderNick';
 import PostHeaderOptions from './PostHeaderOptions';
 
-const PostHeader = () => {
+const PostHeader = ({imgURL}) => {
     return (
         <View style={styles.container}>
-            <PostHeaderAvatar/>
+            <PostHeaderAvatar imgURL={imgURL}/>
             <PostHeaderNick/>
             <PostHeaderOptions/>
         </View>

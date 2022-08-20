@@ -6,16 +6,13 @@ import BannerContentItemSelf from "./BannerContentItemSelf";
 const BannerContent = () => {
     return (
         <ScrollView horizontal>
-            <BannerContentItemSelf/>
-            <BannerContentItem />
-            <BannerContentItem />
-            <BannerContentItem />
-            <BannerContentItem />
-            <BannerContentItem />
-            <BannerContentItem />
-            <BannerContentItem />
-            <BannerContentItem />
-            <BannerContentItem />
+            <BannerContentItemSelf imgURL={require('../assets/images/avatar/avatar.jpg')}/>
+            <BannerContentItem imgURL={require('../assets/images/avatar/avatar1.jpg')}/>
+            <BannerContentItem imgURL={require('../assets/images/avatar/avatar2.jpg')}/>
+            <BannerContentItem imgURL={require('../assets/images/avatar/avatar3.jpg')}/>
+            <BannerContentItem imgURL={require('../assets/images/avatar/avatar1.jpg')}/>
+            <BannerContentItem imgURL={require('../assets/images/avatar/avatar2.jpg')}/>
+            <BannerContentItem imgURL={require('../assets/images/avatar/avatar3.jpg')}/>
         </ScrollView>
     )
 }

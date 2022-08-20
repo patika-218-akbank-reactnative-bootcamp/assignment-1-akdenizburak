@@ -24,7 +24,8 @@ const styles = StyleSheet.create({
         borderRightWidth: 1,
         backgroundColor: "white",
         alignSelf: "flex-start",
-        marginLeft:10
+        marginLeft:10,
+        
     },
 })
 
