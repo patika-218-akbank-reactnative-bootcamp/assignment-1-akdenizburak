@@ -9,6 +9,7 @@
 import React from 'react';
 import {
   SafeAreaView,
+  ScrollView,
   StyleSheet,
   Text,
   useColorScheme,
@@ -58,7 +59,20 @@ const App = () => {
   return (
     <SafeAreaView style={backgroundStyle}>
       <Banner/>
+      <ScrollView>
       <Post/>
+      <Post/>
+      <Post/>
+      <Post/>
+      <Post/>
+      <Post/>
+      <Post/>
+      <Post/>
+      <Post/>
+      <Post/>
+      <Post/>
+      <Post/>
+      </ScrollView>
     </SafeAreaView>
   );
 };
