@@ -6,7 +6,9 @@
 
 ## HomePage
 
-<img src="./Screenshots/HomePage.png">
+<img src="../ScreenShots/HomePage.png">
+<img src="../ScreenShots/HomePage2.png">
+
 
 * Insragram logo and other buttons
 * Horizontal scrollview for Stories
