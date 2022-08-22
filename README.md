@@ -6,8 +6,7 @@
 
 ## HomePage
 
-<img src="./ScreenShots/HomePage.png">
-<img src="./ScreenShots/HomePage2.png">
+<img width="30%" hspace="10%" src="./ScreenShots/HomePage.png"/>     <img width="30%" src="./ScreenShots/HomePage2.png"/>
 
 
 * Insragram logo and other buttons
