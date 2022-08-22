@@ -5,7 +5,7 @@ import MaterialIcons from 'react-native-vector-icons/MaterialIcons'
 
 const PostFooterButtonsLike=()=>{
     return(
-        <MaterialIcons name="favorite-outline" size={30} color="black"/>
+        <MaterialIcons name="favorite-outline" size={25} color="black"/>
     )
 }
 

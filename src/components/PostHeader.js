@@ -17,7 +17,7 @@ const PostHeader = ({imgURL}) => {
 const styles = StyleSheet.create({
     container: {
         width: "100%",
-        height: "15%",
+        height: "13%",
         backgroundColor:"white",
         flexDirection:"row",
     },

@@ -1,11 +1,12 @@
 import React from 'react';
 import { StyleSheet, Text, View } from "react-native";
-import MaterialIcons from 'react-native-vector-icons/MaterialIcons'
+import Octicons from 'react-native-vector-icons/Octicons'
+
 
 
 const BannerHeaderRightShare=()=>{
     return(
-        <MaterialIcons name="add-box" size={30} color="black"/>
+        <Octicons name="diff-added" size={25} color="black"/>
     )
 }
 

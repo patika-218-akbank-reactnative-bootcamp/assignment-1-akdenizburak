@@ -9,8 +9,8 @@ const PostFooterCommentsNick=()=>{
 
 const styles = StyleSheet.create({
     container: {
-        width: "30%",
-        height: 20,
+        maxWidth: "20%",
+        minWidth:"20%",
         fontSize: 15,
         color:"black",
         fontWeight: "bold",

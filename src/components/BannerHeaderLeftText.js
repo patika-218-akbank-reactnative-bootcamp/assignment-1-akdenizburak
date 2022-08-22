@@ -1,15 +1,18 @@
-import { StyleSheet, Text } from "react-native"
+import { Image, StyleSheet, Text } from "react-native"
 import React from "react";
 
 
 const BannerHeaderLeftText=()=>{
     return(
-        <Text style={styles.container}>Instagram</Text>
+        <Image
+        style={styles.image}
+        source={require('../assets/images/logo/logo.png')}
+        />
     )
 }
 
 const styles = StyleSheet.create({
-    container: {
+    image: {
         width: "60%",
         height: 40,
         fontSize: 30,

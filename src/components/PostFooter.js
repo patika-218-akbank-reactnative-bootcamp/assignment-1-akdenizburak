@@ -17,7 +17,7 @@ const PostFooter = () => {
 const styles = StyleSheet.create({
     container: {
         width: "100%",
-        height: "30%",
+        height: "100%",
         backgroundColor:"white"
     },
 });

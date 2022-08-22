@@ -1,11 +1,11 @@
 import React from 'react';
-import { StyleSheet } from "react-native";
-import MaterialIcons from 'react-native-vector-icons/MaterialIcons'
+import Octicons from 'react-native-vector-icons/Octicons'
+
 
 
 const PostFooterButtonsShare=()=>{
     return(
-        <MaterialIcons name="send" size={30} color="black"/>
+        <Octicons name='paper-airplane' size={25} color="black"/>
     )
 }
 

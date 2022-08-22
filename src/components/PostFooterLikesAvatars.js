@@ -3,29 +3,39 @@ import React from "react";
 
 const PostFooterLikesAvatars = () => {
     return (
-        <View style={styles.imageContainer}>
-            <View style={styles.imageContainer}>
-                <View style={styles.imageContainer}>
-
-                </View>
-            </View>
+        <View style={styles.container}>
+            <Image style={styles.image1Container} source={require('../assets/images/avatar/avatar.jpg')}/>
+            <Image style={styles.image2Container} source={require('../assets/images/avatar/avatar1.jpg')}/>
+            <Image style={styles.image3Container} source={require('../assets/images/avatar/avatar3.jpg')}/>
         </View>
-
     )
 }
 
 const styles = StyleSheet.create({
-    imageContainer: {
+    container: {
+        width: "30%",
+        height: 30,
+        flexDirection:"row",
+    },
+    image1Container: {
+        left:5,
         width: 30,
         height: 30,
         borderRadius: 50,
-        borderColor: "black",
-        borderLeftWidth: 1,
-        borderRightWidth: 1,
-        backgroundColor: "white",
-        alignSelf: "flex-start",
-        marginLeft:10,
-        
+    },
+    image2Container: {
+        position: "absolute",
+        left:22,
+        width: 30,
+        height: 30,
+        borderRadius: 50,
+    },
+    image3Container: {
+        position: "absolute",
+        left:44,
+        width: 30,
+        height: 30,
+        borderRadius: 50
     },
 })
 

@@ -1,13 +1,16 @@
 import { Image, StyleSheet, Text, View } from "react-native";
 import React from "react";
 
-const BannerContentItemSelf = ({imgURL}) => {
+const BannerContentItemSelf = ({ imgURL}) => {
     return (
-        <View style={styles.container}>
-            <Image
-                style={styles.image}
-                source={imgURL} />
+        <View>
+            <View style={styles.container}>
+                <Image
+                    style={styles.image}
+                    source={imgURL} />
+            </View>
             <Text style={styles.addBadge}>+</Text>
+            <Text style={styles.text}>Your Story</Text>
         </View>
     )
 }
@@ -18,8 +21,7 @@ const styles = StyleSheet.create({
         height: 60,
         borderRadius: 50,
         backgroundColor: "white",
-        borderWidth: 3,
-        borderColor: "firebrick",
+
         marginLeft: 10,
         alignSelf: "center",
         overflow: 'hidden',
@@ -29,20 +31,26 @@ const styles = StyleSheet.create({
         height: 20,
         borderRadius: 50,
         backgroundColor: "dodgerblue",
-        borderColor:"white",
-        borderWidth:2,
-        marginBottom: -10,
+        borderColor: "white",
+        borderWidth: 2,
+        marginBottom: 1,
         position: "absolute",
-        right: -1,
-        bottom: 8,
-        color:"white",
-        textAlign:"center",
-        fontSize:17,
-        fontWeight:"bold",
+        left: 60,
+        top: 40,
+        color: "white",
+        textAlign: "center",
+        fontSize: 17,
+        fontWeight: "bold",
     },
-    image:{
-        width:"100%",
-        height:"100%"
+    image: {
+        width: "100%",
+        height: "100%"
+    },
+    text:{
+        alignSelf:"center",
+        marginLeft:10,
+        marginTop:2,
+        fontSize:12
     }
 })
 

@@ -5,14 +5,14 @@ import BannerContentItemSelf from "./BannerContentItemSelf";
 
 const BannerContent = () => {
     return (
-        <ScrollView horizontal>
+        <ScrollView horizontal showsHorizontalScrollIndicator={false}>
             <BannerContentItemSelf imgURL={require('../assets/images/avatar/avatar.jpg')}/>
-            <BannerContentItem imgURL={require('../assets/images/avatar/avatar1.jpg')}/>
-            <BannerContentItem imgURL={require('../assets/images/avatar/avatar2.jpg')}/>
-            <BannerContentItem imgURL={require('../assets/images/avatar/avatar3.jpg')}/>
-            <BannerContentItem imgURL={require('../assets/images/avatar/avatar1.jpg')}/>
-            <BannerContentItem imgURL={require('../assets/images/avatar/avatar2.jpg')}/>
-            <BannerContentItem imgURL={require('../assets/images/avatar/avatar3.jpg')}/>
+            <BannerContentItem userName={"Alexy"} imgURL={require('../assets/images/avatar/avatar1.jpg')}/>
+            <BannerContentItem userName={"Veronica"} imgURL={require('../assets/images/avatar/avatar2.jpg')}/>
+            <BannerContentItem userName={"Selin"} imgURL={require('../assets/images/avatar/avatar3.jpg')}/>
+            <BannerContentItem userName={"Alexy"} imgURL={require('../assets/images/avatar/avatar1.jpg')}/>
+            <BannerContentItem userName={"Veronica"} imgURL={require('../assets/images/avatar/avatar2.jpg')}/>
+            <BannerContentItem userName={"Selin"} imgURL={require('../assets/images/avatar/avatar3.jpg')}/>
         </ScrollView>
     )
 }

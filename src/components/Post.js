@@ -17,7 +17,7 @@ const Post = ({avatar,content}) => {
 const styles = StyleSheet.create({
     container: {
         width: "100%",
-        height: 480,
+        height: 500,
         borderBottomColor:"gray",
         borderBottomWidth:1,
     },
