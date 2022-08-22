@@ -6,8 +6,8 @@
 
 ## HomePage
 
-<img width="30%" hspace="10%" src="./ScreenShots/HomePage.png"/>     <img width="30%" src="./ScreenShots/HomePage2.png"/>
-
+<img width="30%" hspace="10%" src="./ScreenShots/HomePage.png"/>     <img width="30%" src="./ScreenShots/HomePage1.png"/>
+<img width="30%" hspace="10%" src="./ScreenShots/HomePage2.png"/>     <img width="30%" src="./ScreenShots/HomePage3.png"/>
 
 * Insragram logo and other buttons
 * Horizontal scrollview for Stories
