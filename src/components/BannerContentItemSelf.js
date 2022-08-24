@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
         alignSelf:"center",
         marginLeft:10,
         marginTop:2,
-        fontSize:12
+        fontSize:12 
     }
 })
 

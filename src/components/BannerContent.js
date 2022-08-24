@@ -5,7 +5,7 @@ import BannerContentItemSelf from "./BannerContentItemSelf";
 
 const BannerContent = () => {
     return (
-        <ScrollView horizontal showsHorizontalScrollIndicator={false}>
+        <ScrollView style={styles.container} horizontal showsHorizontalScrollIndicator={false}>
             <BannerContentItemSelf imgURL={require('../assets/images/avatar/avatar.jpg')}/>
             <BannerContentItem userName={"Alexy"} imgURL={require('../assets/images/avatar/avatar1.jpg')}/>
             <BannerContentItem userName={"Veronica"} imgURL={require('../assets/images/avatar/avatar2.jpg')}/>
