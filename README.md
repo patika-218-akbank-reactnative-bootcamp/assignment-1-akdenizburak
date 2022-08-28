@@ -1,5 +1,5 @@
 # Homework 1 
-### This is a simple Instragram Mobie Application clone. It cludes only component, images and text. Non pressable and non redirecting another page.
+### This is a simple Instragram Mobile Application clone. It cludes only component, images and text. Non pressable and non redirecting another page.
 
 # Used Library
 * react-native-vector-icons /Octicons/MaterialIcons
