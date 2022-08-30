@@ -23,6 +23,9 @@ npx react-native start & npx react-native run-android
 <img width="30%" hspace="10%" src="./ScreenShots/HomePage.png"/>     <img width="30%" src="./ScreenShots/HomePage1.png"/>
 <img width="30%" hspace="10%" src="./ScreenShots/HomePage2.png"/>     <img width="30%" src="./ScreenShots/HomePage3.png"/>
 
+## App Using
+https://user-images.githubusercontent.com/65746583/187466023-2da94384-ae80-42e4-89e4-bd64a8c489c1.mp4
+
 * Insragram logo and other buttons
 * Horizontal scrollview for Stories
 
