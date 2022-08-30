@@ -4,6 +4,20 @@
 # Used Library
 * react-native-vector-icons /Octicons/MaterialIcons
 
+## Installation
+
+```
+git clone https://github.com/patika-218-akbank-reactnative-bootcamp/assignment-1-akdenizburak.git
+```
+
+```
+npm install
+```
+
+```
+npx react-native start & npx react-native run-android
+```
+
 ## HomePage
 
 <img width="30%" hspace="10%" src="./ScreenShots/HomePage.png"/>     <img width="30%" src="./ScreenShots/HomePage1.png"/>
